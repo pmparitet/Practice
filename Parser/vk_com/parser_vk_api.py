@@ -33,6 +33,7 @@ def take_1000_posts():
 
         # Расширяет список [], добавляя в конец все элементы списка "data"
         all_post.extend(data)
+        print('{} posts received, OK!'.format(offset))
         time.sleep(0.5)
     return all_post
 
